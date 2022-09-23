@@ -4,7 +4,7 @@ import { FaLinkedin, FaMedium, FaGithub } from "react-icons/fa";
 const menuLinks = [
   { name: "About Me", route: "/about" },
   { name: "Github", route: "/github" },
-  { name: "Articles", route: "/article" },
+  { name: "Articles", route: "/articles" },
   { name: "Contact", route: "/contact" },
 ];
 
