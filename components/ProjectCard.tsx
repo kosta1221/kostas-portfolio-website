@@ -31,19 +31,16 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         }}
       >
         <LinkOverlay href={project?.url} rel="noopener" isExternal>
-          <Flex
-            alignItems="center"
-            justifyContent="space-around"
-            direction={{ base: "column", md: "row" }}
-          >
+          <Flex alignItems="center" justifyContent="space-around" direction={{ base: "column" }}>
             <Image
               margin="auto"
               src={project.imageUrl}
               alt={project.alt}
               objectFit={"cover"}
-              boxSize={["100px", "150px", "150px", "150px"]}
+              width={["200px", "400px", "400px", "400px"]}
+              height={["100px", "300px", "300px", "300px"]}
             />
-            <Flex flexDirection="column" ml={[0, 5, 5]} mt={[5, 5, 0, 0]}>
+            <Flex flexDirection="column" ml={[0, 5, 5]} mt={[5, 5, 5, 5]}>
               <Heading as="h2" fontSize="lg" fontWeight="600" color={"blue.400"}>
                 {project.name}
               </Heading>

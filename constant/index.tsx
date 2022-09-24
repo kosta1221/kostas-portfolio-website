@@ -123,22 +123,23 @@ const techStacks = [
 const projects = [
   {
     name: "Mabakotarot",
-    imageUrl: "./mabakotarot-square.png",
+    imageUrl: "./mabakotarot.png",
     alt: "mabakotarot",
-    summary: "A project for comparing news headlines from Israel's leading news sites",
+    summary:
+      "A project for comparing news headlines from Israel's leading news sites. The scraper is a NodeJS lambda container function runnig on a cron schedule 24/7 collecting headlines from news sites using puppeteer.",
     url: "https://mabakotarot.kostak.tech",
   },
   {
     name: "Pokedex",
-    imageUrl: "./pokedex-square.png",
+    imageUrl: "./pokedex.png",
     alt: "pokedex",
     summary:
-      "Pokedex - collect all of your favorite pokemons! the front-end was built using React with bootstrap and scss. The back-end API is a nodejs and express app.",
+      "Pokedex - collect all of your favorite pokemons! the front-end was built using React with bootstrap and scss. The back-end API is a nodejs and express app. You can search for your most beloved pokemon or sort them by type.",
     url: "https://km-pokedex.herokuapp.com",
   },
   {
     name: "KTM - Kostas Ticket Manager",
-    imageUrl: "./ticket-manager-square.png",
+    imageUrl: "./ticket-manager.png",
     alt: "ktm",
     summary:
       "KTM is a ticket manager focused on specificity and customization. The basic functionality is to view and manage support tickets/posts with the ability to search through the list. KTM takes this to the next level.",
@@ -146,7 +147,7 @@ const projects = [
   },
   {
     name: "Countrivia",
-    imageUrl: "./countrivia-square.png",
+    imageUrl: "./countrivia.png",
     alt: "countrivia",
     summary:
       "Countrivia - a rating-based trivia game which generates custom questions based on on a large set of tables with countries and trivia facts about them. Watch out: there's a timer and you only have 3 lives!",
