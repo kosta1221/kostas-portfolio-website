@@ -1,6 +1,7 @@
 import { Container, Divider } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
+import { ProjectsSection } from "../section/ProjectsSection";
 import ProfileSection from "../section/ProfileSection";
 import TechStackSection from "../section/TechStackSection";
 import styles from "../styles/Home.module.css";
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
           <Divider my={7} />
           <TechStackSection />
           <Divider my={7} />
-          {/* <LiveProjectSection /> */}
+          <ProjectsSection />
         </Container>
       </main>
     </div>

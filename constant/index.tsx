@@ -120,4 +120,38 @@ const techStacks = [
   },
 ];
 
-export { menuLinks, siteConfig, techStacks };
+const projects = [
+  {
+    name: "Mabakotarot",
+    imageUrl: "./mabakotarot-square.png",
+    alt: "mabakotarot",
+    summary: "A project for comparing news headlines from Israel's leading news sites",
+    url: "https://mabakotarot.kostak.tech",
+  },
+  {
+    name: "Pokedex",
+    imageUrl: "./pokedex-square.png",
+    alt: "pokedex",
+    summary:
+      "Pokedex - collect all of your favorite pokemons! the front-end was built using React with bootstrap and scss. The back-end API is a nodejs and express app.",
+    url: "https://km-pokedex.herokuapp.com",
+  },
+  {
+    name: "KTM - Kostas Ticket Manager",
+    imageUrl: "./ticket-manager-square.png",
+    alt: "ktm",
+    summary:
+      "KTM is a ticket manager focused on specificity and customization. The basic functionality is to view and manage support tickets/posts with the ability to search through the list. KTM takes this to the next level.",
+    url: "https://kostas-ticket-manager.herokuapp.com",
+  },
+  {
+    name: "Countrivia",
+    imageUrl: "./countrivia-square.png",
+    alt: "countrivia",
+    summary:
+      "Countrivia - a rating-based trivia game which generates custom questions based on on a large set of tables with countries and trivia facts about them. Watch out: there's a timer and you only have 3 lives!",
+    url: "https://github.com/kosta1221/trivia-sql",
+  },
+];
+
+export { menuLinks, siteConfig, techStacks, projects };
