@@ -5,7 +5,6 @@ const menuLinks = [
   { name: "About Me", route: "/about" },
   { name: "Github", route: "/github" },
   { name: "Articles", route: "/articles" },
-  { name: "Contact", route: "/contact" },
 ];
 
 const siteConfig = {

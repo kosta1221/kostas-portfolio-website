@@ -1,6 +1,7 @@
 import { Container, Divider } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
+import ProfileSection from "../section/ProfileSection";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
 
       <main>
         <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>
-          {/* <ProfileSection /> */}
+          <ProfileSection />
           <Divider my={7} />
           {/* <TechStackSection /> */}
           <Divider my={7} />
