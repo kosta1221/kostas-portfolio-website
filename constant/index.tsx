@@ -1,22 +1,5 @@
-import {
-  SiAzuredevops,
-  SiCircleci,
-  SiGmail,
-  SiGooglecloud,
-  SiKubernetes,
-  SiTypescript,
-} from "react-icons/si";
-import {
-  FaLinkedin,
-  FaMedium,
-  FaGithub,
-  FaJava,
-  FaReact,
-  FaNode,
-  FaPython,
-  FaDocker,
-  FaAws,
-} from "react-icons/fa";
+import { SiAzuredevops, SiCircleci, SiGmail, SiGooglecloud, SiKubernetes, SiTypescript } from "react-icons/si";
+import { FaLinkedin, FaMedium, FaGithub, FaJava, FaReact, FaNode, FaPython, FaDocker, FaAws } from "react-icons/fa";
 
 const menuLinks = [
   { name: "About Me", route: "/about" },
@@ -59,6 +42,11 @@ const siteConfig = {
 
 const techStacks = [
   {
+    name: "Python",
+    icon: <FaPython fontSize="20px" />,
+    url: "https://www.python.org",
+  },
+  {
     name: "TypeScript",
     icon: <SiTypescript fontSize="20px" />,
     url: "https://www.typescriptlang.org",
@@ -72,11 +60,6 @@ const techStacks = [
     name: "React",
     icon: <FaReact fontSize="20px" />,
     url: "https://reactjs.org",
-  },
-  {
-    name: "Python",
-    icon: <FaPython fontSize="20px" />,
-    url: "https://www.python.org",
   },
   {
     name: "Java",

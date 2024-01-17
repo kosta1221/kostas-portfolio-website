@@ -1,7 +1,6 @@
 import { Box, Container, Flex, Heading, SlideFade, Stack } from "@chakra-ui/react";
 import Head from "next/head";
 import { AiFillStar } from "react-icons/ai";
-import { BsFillBriefcaseFill } from "react-icons/bs";
 import UnderlinedText from "../components/UnderlinedText";
 import Paragraph from "../components/Paragraph";
 import styles from "../styles/Home.module.css";
@@ -12,7 +11,7 @@ function About() {
       <Head>
         <title>About Me</title>
         <meta name="description" content="Kosta | Full-Stack Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/favicon-16x16.png" />
       </Head>
 
       <main>
@@ -29,34 +28,26 @@ function About() {
               </UnderlinedText>
 
               <Paragraph fontSize="lg" lineHeight={1.6} my={5}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                I&apos;m a developer with 3 years of working experience in Fullstack Web Development, also working on
+                various cloud projects, with a deep understanding of infrastructure and modern DevOps tools.
               </Paragraph>
 
               <Paragraph fontSize="lg" lineHeight={1.6} my={5}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                I have been working on research of over 10 Api-gateways for integration of third-party security plugins
+                in them, and thus have experience with a variety of different programming languages. This also required
+                me to get good with tools which are not well documented and not widely-spread.
               </Paragraph>
 
-              <Flex alignItems="center" my={10}>
-                <UnderlinedText>
-                  <Flex alignItems={"center"}>
-                    <Stack pr={3}>
-                      <BsFillBriefcaseFill size={"30px"} />
-                    </Stack>
+              <Paragraph fontSize="lg" lineHeight={1.6} my={5}>
+                I&apos;m also working on big enterprise-level projects which require research and a deep understanding
+                of cloud-providers&apos; products.
+              </Paragraph>
 
-                    <Heading>Career</Heading>
-                  </Flex>
-                </UnderlinedText>
-              </Flex>
+              <Paragraph fontSize="lg" lineHeight={1.6} my={5}>
+                Another area which I specialize in, is improving CI/CD pipelines of big and small organizations alike,
+                and making their deployment process as effiecient and seamless as possible. This is also done through
+                improving their production cloud infrastructure and Kubernetes environments.
+              </Paragraph>
             </Box>
           </SlideFade>
         </Container>

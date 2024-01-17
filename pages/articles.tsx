@@ -15,7 +15,7 @@ const Articles = ({ articles }: ArticlesProps) => {
       <Head>
         <title>Kosta | Articles</title>
         <meta name="description" content="Kosta | Full-Stack Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>

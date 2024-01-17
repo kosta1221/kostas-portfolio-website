@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <title>Kosta | Home</title>
         <meta property="og:title" content="Kosta | Full-Stack Developer"></meta>
         <meta name="description" content="Kosta | Full-Stack Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/favicon-16x16.png" />
       </Head>
 
       <main>

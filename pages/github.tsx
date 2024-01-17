@@ -15,7 +15,7 @@ const Github = ({ repos }: GithubProps) => {
       <Head>
         <title>Kosta | Github</title>
         <meta name="description" content="Kosta | Full-Stack Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/favicon-16x16.png" />
       </Head>
 
       <main>

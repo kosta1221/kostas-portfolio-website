@@ -1,15 +1,6 @@
 import { useDisclosure } from "@chakra-ui/hooks";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-import {
-  Avatar,
-  Box,
-  Flex,
-  HStack,
-  IconButton,
-  Link as ChakraLink,
-  Stack,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Avatar, Box, Flex, HStack, IconButton, Link as ChakraLink, Stack, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { menuLinks } from "../constant";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
@@ -64,9 +55,9 @@ const NavBar = () => {
           <HStack spacing={8} alignItems={"center"}>
             <Avatar
               as={ChakraLink}
-              size="sm"
+              size="md"
               href="/"
-              src="/profile_picture.png"
+              src="/profile_picture.jpg"
               _hover={{ borderColor: "blue.500" }}
             />
             <HStack as="nav" spacing="4" display={{ base: "none", md: "flex" }}>
@@ -79,12 +70,7 @@ const NavBar = () => {
         </Flex>
 
         {isOpen && (
-          <Box
-            pb={4}
-            w={["100%", "100%", "80%"]}
-            maxW={"container.lg"}
-            display={["inherit", "inherit", "none"]}
-          >
+          <Box pb={4} w={["100%", "100%", "80%"]} maxW={"container.lg"} display={["inherit", "inherit", "none"]}>
             <Stack as={"nav"} spacing={4}>
               {navItem}
             </Stack>

@@ -22,15 +22,16 @@ const ProfileSection = () => {
             Hi, I&apos;m Kosta! <span className="waving-hand">👋</span>
           </Heading>
           <Flex alignItems={"flex-end"}>
-            <Avatar name="Kosta K" src="/profile_picture.png" mb={5} size="lg" />
+            <Avatar name="Kosta K" src="/profile_picture.jpg" mb={5} size="xl" />
           </Flex>
         </Flex>
         <Paragraph fontSize="2xl" lineHeight={1.6}>
-          Full-Stack Web Developer & DevOps Consultant
+          Full-Stack & Cloud Developer, DevOps Consultant
         </Paragraph>
         <Paragraph fontSize="2xl" lineHeight={1.6}>
-          Building clean and resilient backends using NodeJS and TypeScript.{"\n"}Passionate about
-          improving CI/CD pipelines and optimizing kubernetes environments.
+          Building clean and resilient backends using Python / NodeJS and TypeScript.{"\n"} Mainly use React with
+          Tanstack query and modified Tailwind UI for client-side. Also passionate about improving CI/CD pipelines and
+          optimizing kubernetes environments.
         </Paragraph>
         <Paragraph fontSize="2xl" lineHeight={1.6}>
           Check out some of my writing on{" "}
@@ -49,12 +50,7 @@ const ProfileSection = () => {
           <LightMode>
             <ButtonGroup>
               <Link href={process.env.MAILTO_URL} style={{ textDecoration: "none" }}>
-                <Button
-                  colorScheme="blue"
-                  size="sm"
-                  margin={"5px"}
-                  leftIcon={<BiPhoneCall color="white" />}
-                >
+                <Button colorScheme="blue" size="sm" margin={"5px"} leftIcon={<BiPhoneCall color="white" />}>
                   Contact Me
                 </Button>
               </Link>
